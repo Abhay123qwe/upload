@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(to right,rgb(9, 231, 220), rgb(26, 238, 122) );
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: red;
+    text-shadow: 5px 5px 5px #0515f7;
+}
+form{ background-color: white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 5px rgb(0, 47, 255), -5px -5px 5px  rgb(0, 47, 255);
+
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.form-control input,
+.form-control select,
+.form-control textarea{
+    border: 1px solid;
+    border-radius: 2px;
+    font-family: inherit;
+    display: block;
+    border-radius: 2px;
+    padding: 10px;
+    width: 90%;
+    
+
+}
+.form-control textarea{
+    overflow: auto;
+    height: 70px;
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+
+}
+button {
+    background-color: #0015ff;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-size: 21px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgb(17, 255, 0);
+}
+button:active{
+    background-color: #f70505;
+}
+button a{
+    display: none;
+}
+#box{
+    background: linear-gradient(red, rgb(0, 255, 55));
+    width: 100px;
+    height: 5px;
+    font-size: 0%;
+    animation-name: slideright;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slideright{
+    from{transform: translate(1000%)}
+}
